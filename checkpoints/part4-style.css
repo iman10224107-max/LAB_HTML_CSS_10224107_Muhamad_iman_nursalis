@@ -1,0 +1,77 @@
+/* type selector */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 960px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* class selector */
+.site-header {
+  background-color: #003366;
+  color: #ffffff;
+  padding: 20px;
+}
+
+/* descendant selector */
+nav ul {
+  display: flex;
+  gap: 16px;
+  list-style: none;
+  padding: 0;
+}
+
+/* pseudo-class */
+nav a:hover {
+  color: #3b82f6;
+}
+
+/* id selector */
+#contact {
+  scroll-margin-top: 20px;
+}
+
+/* class selector */
+.card {
+  background-color: #ffffff;
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* grouping selector */
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+th {
+  background-color: #e2e8f0;
+}
+
+img {
+  max-width: 100%;
+}
+
+form label {
+  display: block;
+  margin-top: 10px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.85rem;
+}
